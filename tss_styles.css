@@ -22,7 +22,10 @@ html {
 
 body {
     color:rgb(91, 91, 91); 
-    background-color: ivory
+    background-color: ivory;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    
 }
 
 
@@ -33,16 +36,27 @@ h1 {
     background-color: rgb(222,128,60);
 }
 
-h2 {
-    color:white;
+article#about_tss h1 {
+    color: white;
+    background-color: rgb(222, 128, 60);
+}
+
+article#about_tss h2 {
+    color: white;
     background-color: rgb(235, 177, 131);
+}
+article.syllabus h1, h2 {
+    background-color: rgb(255, 185, 255);
+    color: rgb(101, 101, 101);
 }
 
 
 
 
-
 /* Aside and Blockquote Styles */
+aside blockquote {
+    color: rgb(232, 165, 116);
+}
 
 
 
