@@ -1,5 +1,11 @@
 @charset "utf-8";
- 
+
+
+@font-face {
+	font-family: Quicksand;
+	src: url('Quicksand-Regular.woff') format('woff'), 
+	url('Quicksand-Regular.ttf') format('truetype');
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -25,15 +31,22 @@ body {
     background-color: ivory;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-family: Verdana, Geneva, sans-serif;
-    
 }
 
 
 
 /* Heading Styles */
 h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+h1, h2 {
     color: white;
     background-color: rgb(222,128,60);
+    font-family: Quicksand, Verdana, Geneva, sans-serif;
 }
 
 article#about_tss h1 {
@@ -58,11 +71,22 @@ aside blockquote {
     color: rgb(232, 165, 116);
 }
 
+aside {
+    font-size: .8em; 
+}
+
 
 
 
 
 /* Navigation Styles */	
+nav {
+    font-size: .8em;
+}
+
+nav>ul {
+    line-height: 2em;
+}
 
 
 
